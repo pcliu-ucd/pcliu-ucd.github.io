@@ -13,13 +13,14 @@ body {
 }
 
 h1 {
+    font-family: 'Merriweather', serif;
     font-size: 4rem;
     padding: 1rem 0 2rem 0;
 }
 
 h2 {
     padding: 1rem 0 0 0;
-    font-size: 1.84rem;
+    font-size: 1.82em;
 }
 
 h4 {
@@ -30,14 +31,16 @@ h4 {
     font-size: 1.5rem;
 }
 
-.feat {
-    padding: 3rem 0;
-    letter-spacing: 0.15em;
-}
-
 .logline {
     padding:  1rem 0 0.5rem 0;
     font-size: 1.8rem;
+    font-family: 'Merriweather', serif;
+}
+
+.feat {
+    padding: 3rem 0;
+    letter-spacing: 0.15em;
+    font-family: 'Merriweather', serif;
 }
 
 nav {
