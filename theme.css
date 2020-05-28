@@ -99,11 +99,52 @@ a:visited {
   }
 
 a:hover {
-    color: rgb(78, 78, 78);
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   
 a:active {
     color: blue;
     text-decoration: none;
+  }
+
+  /* Desktop */
+
+@media only screen and (min-width: 1200px) {
+
+
+
+    .logline {
+        font-size: 20px;
+    }
+
+    .profile {
+        width: 12%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .photop {
+        width: 43%;
+    }
+
+    .solid {
+        display: none;
+    }
+
+    nav {
+        font-size: 1.5rem;
+    }
+
+    .short_description {
+        font-size: 18px;
+    }
+
+    .feat {
+        text-align: left;
+        padding-left: 3%;
+    }
   }
