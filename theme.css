@@ -116,6 +116,7 @@ a:active {
 
     .logline {
         font-size: 20px;
+        padding-top: 3rem;
     }
 
     .profile {
@@ -125,6 +126,7 @@ a:active {
     .container {
         display: flex;
         justify-content: center;
+        padding-bottom: 3rem;
     }
 
     .photop {
@@ -146,5 +148,9 @@ a:active {
     .feat {
         text-align: left;
         padding-left: 3%;
+    }
+
+    .email {
+        width: 300px;
     }
   }
