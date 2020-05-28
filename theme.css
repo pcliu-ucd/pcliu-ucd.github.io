@@ -38,9 +38,9 @@ h4 {
 }
 
 .feat {
-    padding: 3rem 0;
+    padding-top: 6rem;
     letter-spacing: 0.15em;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -87,6 +87,11 @@ img {
     border-radius: 5%;
 }
 
+.container {
+    padding-bottom: 5rem;
+}
+
+
 
 a:link {
     color: rgb(255, 255, 255);
@@ -116,7 +121,6 @@ a:active {
 
     .logline {
         font-size: 20px;
-        padding-top: 3rem;
     }
 
     .profile {
@@ -126,7 +130,14 @@ a:active {
     .container {
         display: flex;
         justify-content: center;
-        padding-bottom: 3rem;
+        padding:4rem 0 3rem;
+    }
+
+    .containerV {
+        display: flex;
+        justify-content: center;
+        padding:4rem 0 3rem;
+        flex-direction: column;
     }
 
     .photop {
@@ -146,11 +157,24 @@ a:active {
     }
 
     .feat {
-        text-align: left;
-        padding-left: 3%;
+        letter-spacing: 0;
+        padding: 5rem 0 0 0;
     }
 
     .email {
         width: 300px;
     }
+
+    article {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    #show {
+        display: initial;
+    }
+
   }
